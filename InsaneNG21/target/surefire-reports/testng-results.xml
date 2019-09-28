@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is correct.]]>
+    </line>
+    <line>
+      <![CDATA[Admin navigated to add movie page]]>
+    </line>
+    <line>
+      <![CDATA[Invalid title validation is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Invalid director message is displayed.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4882" started-at="2019-09-28T08:31:16Z" finished-at="2019-09-28T08:31:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4882" started-at="2019-09-28T08:31:16Z" finished-at="2019-09-28T08:31:21Z">
+      <class name="com.Insane.tests.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Insane.tests.LoginTest@281e3708]" name="openBrowser" is-config="true" duration-ms="5662" started-at="2019-09-28T08:31:11Z" finished-at="2019-09-28T08:31:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.Insane.tests.LoginTest@281e3708]" name="verifyTitle" duration-ms="44" started-at="2019-09-28T08:31:16Z" description="Verify correct title is displayed." finished-at="2019-09-28T08:31:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is correct.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.LoginTest@281e3708]" name="verifyUsergetsLoggedIn" duration-ms="1595" started-at="2019-09-28T08:31:16Z" description="Verify admin user gets logged in." finished-at="2019-09-28T08:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsergetsLoggedIn -->
+        <test-method status="PASS" signature="verifyAdminNavigationToAddMovie()[pri:3, instance:com.Insane.tests.LoginTest@281e3708]" name="verifyAdminNavigationToAddMovie" duration-ms="3083" started-at="2019-09-28T08:31:18Z" description="Verify admin gets navigated to Add movie page." finished-at="2019-09-28T08:31:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin navigated to add movie page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAdminNavigationToAddMovie -->
+        <test-method status="PASS" signature="verifyAddMovieInvalidMessage()[pri:4, instance:com.Insane.tests.LoginTest@281e3708]" name="verifyAddMovieInvalidMessage" duration-ms="136" started-at="2019-09-28T08:31:21Z" description="Verify admin gets navigated to Add movie page." finished-at="2019-09-28T08:31:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid title validation is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Invalid director message is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddMovieInvalidMessage -->
+      </class> <!-- com.Insane.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
