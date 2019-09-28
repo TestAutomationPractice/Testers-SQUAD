@@ -1,0 +1,54 @@
+# Created at 2019-09-28T16:47:22.785
+org.testng.TestNGException: 
+No free nodes found in:[DynamicGraph 
+  Ready:[UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278], UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278], AdminLoginTest.verifyAddMovieInvalidMessage()[pri:4, instance:com.Insane.tests.AdminLoginTest@768b970c], AdminLoginTest.verifyAddMovieFunctionality()[pri:0, instance:com.Insane.tests.AdminLoginTest@768b970c], AdminLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.AdminLoginTest@768b970c], AdminLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.AdminLoginTest@768b970c], AdminLoginTest.verifyAdminNavigationToAddMovie()[pri:3, instance:com.Insane.tests.AdminLoginTest@768b970c]]
+  Running:[]
+  Finished:[]
+  Edges:
+     UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278]
+        UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+        AdminLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.AdminLoginTest@768b970c]
+     UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+        AdminLoginTest.verifyAddMovieFunctionality()[pri:0, instance:com.Insane.tests.AdminLoginTest@768b970c]
+     AdminLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        AdminLoginTest.verifyAddMovieFunctionality()[pri:0, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+     AdminLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+        AdminLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278]
+        UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+     AdminLoginTest.verifyAddMovieFunctionality()[pri:0, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        AdminLoginTest.verifyAddMovieInvalidMessage()[pri:4, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278]
+     AdminLoginTest.verifyAddMovieInvalidMessage()[pri:4, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        AdminLoginTest.verifyAdminNavigationToAddMovie()[pri:3, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278]
+        UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+     AdminLoginTest.verifyAdminNavigationToAddMovie()[pri:3, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278]
+        AdminLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.AdminLoginTest@768b970c]
+        UserLoginTest.verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@71623278]
+        UserLoginTest.verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@71623278]
+]
+	at org.testng.TestRunner.privateRun(TestRunner.java:642)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+

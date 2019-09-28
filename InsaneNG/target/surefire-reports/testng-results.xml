@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is correct.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1140" started-at="2019-09-28T11:10:10Z" finished-at="2019-09-28T11:10:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1140" started-at="2019-09-28T11:10:10Z" finished-at="2019-09-28T11:10:11Z">
+      <class name="com.Insane.tests.UserLoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Insane.tests.UserLoginTest@7e9a5fbe]" name="openBrowser" is-config="true" duration-ms="6810" started-at="2019-09-28T11:10:04Z" finished-at="2019-09-28T11:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.Insane.tests.UserLoginTest@7e9a5fbe]" name="verifyTitle" duration-ms="39" started-at="2019-09-28T11:10:10Z" description="Verify correct title is displayed." finished-at="2019-09-28T11:10:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is correct.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyUsergetsLoggedIn()[pri:2, instance:com.Insane.tests.UserLoginTest@7e9a5fbe]" name="verifyUsergetsLoggedIn" duration-ms="1073" started-at="2019-09-28T11:10:10Z" description="Verify admin user gets logged in." finished-at="2019-09-28T11:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsergetsLoggedIn -->
+      </class> <!-- com.Insane.tests.UserLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
