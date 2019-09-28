@@ -1,1 +1,5 @@
 As we have opted for Modular Project approach, so only the changes are made within config.properties file.
+
+Also new pages and test class were added
+
+## No Modification Done with framework with new changes
