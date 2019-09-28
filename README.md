@@ -9,7 +9,7 @@ For UI Testing
 
 
 For API Testing
--	Run command “Maven install” for api.xml
+-	Run command “Maven install” for pom.xml ( for individual run api.xml
 -	If any error persists, run command “Maven clean”
 -	And then run maven install
 -	Then run maven test
